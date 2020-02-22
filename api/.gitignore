@@ -1,6 +1,12 @@
 HELP.md
-!**/trends-0.0.1.jar
-target/
+target/trends-0.0.1.jar.original
+target/test-classes
+target/surefire-reports
+target/maven-status
+target/maven-archiver
+target/generated-sources
+target/generated-test-sources
+target/classes
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**

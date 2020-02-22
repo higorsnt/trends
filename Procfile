@@ -1,0 +1,1 @@
+web: java -jar api/target/trends-0.0.1.jar
