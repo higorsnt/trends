@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.org.trends</groupId>
-	<artifactId>Trends</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>trends</artifactId>
+	<version>0.0.1</version>
 	<name>trends</name>
 	<description>Search for hashtags based on synonyms</description>
 

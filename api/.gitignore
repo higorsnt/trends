@@ -1,6 +1,6 @@
 HELP.md
-!target/Trends-0.0.1-SNAPSHOT.jar
-target/*
+!target/trends-0.0.1.jar
+target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
