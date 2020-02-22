@@ -1,11 +1,11 @@
 import requests
 import json
 
-url = 'http://localhost:9200/trends/'
+url = 'https://d5nr6wu96i:iam5mm0w2n@yew-122637058.us-east-1.bonsaisearch.net:443/trends/'
 
 def delete():
     try:
-        requests.delete('http://localhost:9200/_all')
+        requests.delete('https://d5nr6wu96i:iam5mm0w2n@yew-122637058.us-east-1.bonsaisearch.net:443/_all')
     except:
         print(r.raise_for_status())
 
