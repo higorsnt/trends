@@ -5,15 +5,13 @@ import org.json.JSONArray;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 
 @CrossOrigin
 @RestController
+@RequestMapping("/search")
 public class TrendsController {
 
     private TrendsService trendsService;
@@ -23,7 +21,7 @@ public class TrendsController {
         this.trendsService = trendsService;
     }
 
-    @GetMapping("/search/{term}")
+    @GetMapping("/{term}")
     public ResponseEntity<String> search(@PathVariable("term") String term) {
         JSONArray array = new JSONArray();
 
